@@ -7,7 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloXamarin.Android", "Hel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloXamarin.iOS", "HelloXamarin\HelloXamarin.iOS\HelloXamarin.iOS.csproj", "{985D7798-65DB-46AA-B6AE-F685F545923A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloXamarin", "HelloXamarin\HelloXamarin\HelloXamarin.csproj", "{4C253496-0814-4911-99E0-891DF1A14E9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloXamarin", "HelloXamarin\HelloXamarin\HelloXamarin.csproj", "{4C253496-0814-4911-99E0-891DF1A14E9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F8975AD8-C13C-41D6-B6BA-C9264603A5E8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
