@@ -11,7 +11,7 @@ namespace HelloXamarin
 			InitializeComponent();
 
 			//MainPage = new NavigationPage(new Page1());
-			MainPage = new TabbedPage1();
+			MainPage = new CarouselDemo();
 		}
 
 		protected override void OnStart()

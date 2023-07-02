@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloXamarin.CarouselDemo">
+    <ContentPage Title="Page 1" BackgroundColor="Black">
+        <Grid>
+            <Label  Text="Hello from page 1" TextColor="White"/>
+        </Grid>
+    </ContentPage>
+
+    <ContentPage Title="Page 2" BackgroundColor="DarkGreen">
+        <Label  Text="Hey, hello from page 2"/>
+    </ContentPage>
+
+    <ContentPage Title="Page 3" >
+        <Label Text="What's up? from page 3" BackgroundColor="MintCream" />
+    </ContentPage>
+</CarouselPage>
