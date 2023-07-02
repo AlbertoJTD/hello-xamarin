@@ -10,7 +10,8 @@ namespace HelloXamarin
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new Page1());
+			//MainPage = new NavigationPage(new Page1());
+			MainPage = new FlyoutPage1();
 		}
 
 		protected override void OnStart()
