@@ -18,8 +18,9 @@ namespace HelloXamarin
 		int count = 0;
 		void Button_Clicked(object sender, System.EventArgs e)
 		{
-			count++;
-			((Button)sender).Text = $"You clicked {count} times.";
+			//count++;
+			//((Button)sender).Text = $"You clicked {count} times.";
+			Navigation.PushAsync(new Page1());
 		}
 	}
 }
