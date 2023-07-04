@@ -16,5 +16,10 @@ namespace HelloXamarin
 		{
 			InitializeComponent ();
 		}
+
+		private void GoToFirstPage(object sender, EventArgs e)
+		{
+			Navigation.PopToRootAsync();
+		}
 	}
 }

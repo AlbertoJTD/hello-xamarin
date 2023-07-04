@@ -22,5 +22,10 @@ namespace HelloXamarin
 			//((Button)sender).Text = $"You clicked {count} times.";
 			Navigation.PushAsync(new Page1());
 		}
+
+		private void GoToPage2(object sender, EventArgs e)
+		{
+			Navigation.PushAsync(new Page2());
+		}
 	}
 }

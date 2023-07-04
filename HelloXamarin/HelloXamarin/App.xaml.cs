@@ -11,7 +11,9 @@ namespace HelloXamarin
 			InitializeComponent();
 
 			//MainPage = new NavigationPage(new Page1());
-			MainPage = new TabbedPage1();
+			//MainPage = new TabbedPage1();
+			NavigationPage navPage = new NavigationPage(new MainPage());
+			MainPage = navPage;
 		}
 
 		protected override void OnStart()

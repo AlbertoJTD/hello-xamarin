@@ -16,5 +16,15 @@ namespace HelloXamarin
 		{
 			InitializeComponent ();
 		}
+
+		private void NextPage(object sender, EventArgs e)
+		{
+			Navigation.PushAsync(new Page3());
+		}
+
+		private void GoBack(object sender, EventArgs e)
+		{
+			Navigation.PopAsync();
+		}
 	}
 }

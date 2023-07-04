@@ -20,6 +20,11 @@
             </Label.FormattedText>
         </Label>
         <Button Text="Click Me" Clicked="Button_Clicked" />
+
+        <Button Text="Go to page 2"
+                HeightRequest="200"
+                WidthRequest="200"
+                Clicked="GoToPage2" />
     </StackLayout>
 
 </ContentPage>

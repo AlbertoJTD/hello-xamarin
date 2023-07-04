@@ -4,9 +4,10 @@
              x:Class="HelloXamarin.Page3">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="Welcome to Xamarin.Forms! Page 3"
+                VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand" />
+            <Button Text="Main page" Clicked="GoToFirstPage" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
